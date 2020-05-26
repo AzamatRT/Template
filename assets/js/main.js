@@ -34,8 +34,8 @@ document.addEventListener("DOMContentLoaded", function () {
                   className: "modal-window",
                 })
                 .show();
-              // let close = html.querySelector('[data-type="close"]');
-              // console.log(close);
+              let close = html.querySelector('[data-type="close"]');
+              console.log(close);
             }
           } else {
             console.log(/\.(jpg|png|gif|jpeg)$/i.test(href));
