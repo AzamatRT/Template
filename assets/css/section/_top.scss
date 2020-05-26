@@ -1,0 +1,33 @@
+#section-top {
+  box-sizing: border-box;
+  height: 141px;
+  padding: 40px 0;
+  position: relative;
+  z-index: 2;
+  @media (max-width: $size-tablet) {
+    display: none;
+  }
+  ul {
+    @extend %liststyle;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    li {
+      margin: 0 35px;
+      a {
+        color: #dedede;
+        font-weight: 600;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: color 0.15s ease-in;
+        &:hover {
+          color: #fff;
+        }
+      }
+      &.logotype {
+        margin-left: 65px;
+        margin-right: 130px;
+      }
+    }
+  }
+}
