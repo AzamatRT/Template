@@ -445,7 +445,7 @@ img.responsive {
 }
 
 #section-main::before {
-  background: rgba(0, 0, 0, 0.75);
+  background: rgba(0, 0, 0, 0.8);
   bottom: 0;
   content: "";
   left: 0;
