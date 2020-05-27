@@ -1,5 +1,5 @@
 "use strict";
-
+ 
 document.addEventListener("DOMContentLoaded", function () {
   [].forEach.call(document.querySelectorAll("[data-type='modal']"), function (
     element
